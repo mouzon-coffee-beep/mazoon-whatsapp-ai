@@ -63,7 +63,7 @@ def receive_webhook():
     except Exception as e:
         print("Webhook error:", e)
 
-    return "EVENT_RECEIVED", 200return "EVENT_RECEIVED", 200
+    return "EVENT_RECEIVED", 200
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 10000))
